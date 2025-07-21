@@ -64,7 +64,7 @@ export default function Programs() {
           className="my-4 py-4 text-white max-md:text-4xl md:text-6xl flex flex-row mx-auto justify-center"
         >
               <span className="block mt-1 md:mt-6">
-                <span className="bg-digitomize-bg mx-2 px-1 rounded-lg">Programs</span>
+                <span className="bg-CodeVault-bg mx-2 px-1 rounded-lg">Programs</span>
               </span>
             </motion.h1>
             <motion.h2
@@ -78,7 +78,7 @@ export default function Programs() {
           delay: 0.7,
         }}
         className="text-custom-blue text-xl"
-      >Open Source Programs that Digitomize has been a part of!</motion.h2>
+      >Open Source Programs that CodeVault has been a part of!</motion.h2>
             
             <div className="flex flex-row mt-4">
               <Marquee

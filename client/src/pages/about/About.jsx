@@ -36,7 +36,7 @@ export default function About() {
                       className="heading mb-8 w-fit"
                     >
                       <h1 className="mt-2 text-white max-md:text-4xl md:text-6xl">
-                        <span>Digitomize’s Platform</span>
+                        <span>CodeVault’s Platform</span>
                       </h1>
                       <h3 className="text-left text-custom-blue">
                         Your Gateway to Coding Success!
@@ -54,7 +54,7 @@ export default function About() {
                       }}
                       className="text-[20px]"
                     >
-                      At Digitomize, we believe coding isn't just a skill, it's
+                      At CodeVault, we believe coding isn't just a skill, it's
                       a superpower. It's the language of innovation, the key to
                       unlocking countless possibilities, and the fuel that
                       drives the digital world. We're here to empower coders of
@@ -172,7 +172,7 @@ export default function About() {
                       Open Source
                     </h3>
                     <p className="text-[1rem]">
-                      We believe in the power of collaboration. Digitomize is an
+                      We believe in the power of collaboration. CodeVault is an
                       open-source project, meaning anyone can contribute to its
                       growth and evolution. Share your ideas, code, and
                       expertise to make it an even more powerful resource for
@@ -214,7 +214,7 @@ export default function About() {
                   {/* <div className="stat-desc">21% more than last month</div> */}
                 </div>
                 <Link
-                  to={"https://www.linkedin.com/company/digitomize"}
+                  to={"https://www.linkedin.com/company/CodeVault"}
                   className="stat p-0"
                 >
                   <div className="stat">
@@ -228,7 +228,7 @@ export default function About() {
                   </div>
                 </Link>
                 <Link
-                  to={"https://github.com/digitomize/digitomize/stargazers"}
+                  to={"https://github.com/CodeVault/CodeVault/stargazers"}
                   className="stat p-0"
                 >
                   <div className="stat">
@@ -242,7 +242,7 @@ export default function About() {
                   </div>
                 </Link>
                 <Link
-                  to={"https://github.com/digitomize/digitomize#contributors-"}
+                  to={"https://github.com/CodeVault/CodeVault#contributors-"}
                   className="stat p-0"
                 >
                   <div className="stat">
@@ -257,7 +257,7 @@ export default function About() {
               </motion.div>
               <div className="mt-[70px]">
                 {/* <h2 className="font-[500] text-5xl text-center mb-[75px] text-white">
-                  Milestones of Digitomize
+                  Milestones of CodeVault
                 </h2> */}
                 <motion.h1
                   initial={{ opacity: 0, x: -150 }}
@@ -272,8 +272,8 @@ export default function About() {
                   className="my-4 py-4 text-white max-md:text-4xl md:text-6xl flex flex-row mx-auto justify-center"
                 >
                   <span className="block mt-1 md:mt-6">
-                    <span className="bg-digitomize-bg mx-2 px-1 rounded-lg">Milestones</span>
-                    of Digitomize
+                    <span className="bg-CodeVault-bg mx-2 px-1 rounded-lg">Milestones</span>
+                    of CodeVault
                   </span>
                 </motion.h1>
                 <MuiTimeline></MuiTimeline>
@@ -317,7 +317,7 @@ export default function About() {
                     stiffness: 100,
                     delay: 0.5,
                   }}
-                  className="radial-progress text-digitomize-bg"
+                  className="radial-progress text-CodeVault-bg"
                   role="progressbar"
                 >
                   1
@@ -339,10 +339,10 @@ export default function About() {
                   Read the docs
                 </h4>
                 <p className="mt-2 text-base font-book leading-snug text-gray-9">
-                  Start by reading digitomize's{" "}
+                  Start by reading CodeVault's{" "}
                   <a
-                    className="text-digitomize-bg"
-                    href="https://github.com/digitomize/digitomize/blob/main/CONTRIBUTING.md"
+                    className="text-CodeVault-bg"
+                    href="https://github.com/CodeVault/CodeVault/blob/main/CONTRIBUTING.md"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -350,8 +350,8 @@ export default function About() {
                   </a>{" "}
                   and{" "}
                   <a
-                    className="text-digitomize-bg"
-                    href="https://github.com/digitomize/digitomize/blob/main/README.md"
+                    className="text-CodeVault-bg"
+                    href="https://github.com/CodeVault/CodeVault/blob/main/README.md"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -373,7 +373,7 @@ export default function About() {
                     stiffness: 100,
                     delay: 1,
                   }}
-                  className="radial-progress text-digitomize-bg"
+                  className="radial-progress text-CodeVault-bg"
                   role="progressbar"
                 >
                   2
@@ -397,8 +397,8 @@ export default function About() {
                 <p className="mt-2 text-base font-book leading-snug text-gray-9">
                   Head over to{" "}
                   <a
-                    className="text-digitomize-bg"
-                    href="https://github.com/digitomize/digitomize/issues"
+                    className="text-CodeVault-bg"
+                    href="https://github.com/CodeVault/CodeVault/issues"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -406,8 +406,8 @@ export default function About() {
                   </a>{" "}
                   or open a{" "}
                   <a
-                    className="text-digitomize-bg"
-                    href="https://github.com/digitomize/digitomize/issues/new"
+                    className="text-CodeVault-bg"
+                    href="https://github.com/CodeVault/CodeVault/issues/new"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -429,7 +429,7 @@ export default function About() {
                     stiffness: 100,
                     delay: 1.5,
                   }}
-                  className="radial-progress text-digitomize-bg"
+                  className="radial-progress text-CodeVault-bg"
                   role="progressbar"
                 >
                   3
@@ -451,8 +451,8 @@ export default function About() {
                 <p className="mt-2 text-base font-book leading-snug text-gray-9">
                   Solve the issue and create a Pull Request. Join us on{" "}
                   <a
-                    className="text-digitomize-bg"
-                    href="https://digitomize.com/discord"
+                    className="text-CodeVault-bg"
+                    href="https://CodeVault.com/discord"
                   >
                     Discord
                   </a>{" "}

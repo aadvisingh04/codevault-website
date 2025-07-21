@@ -31,7 +31,7 @@ function Potd() {
                         chrome.storage.local.remove('potdGFG');
                         // Fetch new GeeksforGeeks data
                         try {
-                            const response = await axios.get("https://api.digitomize.com/potd/geeksforgeeks");
+                            const response = await axios.get("https://api.CodeVault.com/potd/geeksforgeeks");
                             const data = response.data;
                             const problemName = data.problemName;
                             const problemUrl = data.problemUrl;
@@ -79,7 +79,7 @@ function Potd() {
                         chrome.storage.local.remove('potdLeetCode');
                         try {
 
-                            const data = await axios.get('https://api.digitomize.com/potd/leetcode');
+                            const data = await axios.get('https://api.CodeVault.com/potd/leetcode');
                             const link = data.problemUrl;
 
                             // Extracting the last part of the link which contains the problem name
@@ -145,7 +145,7 @@ function Potd() {
                 {/* <Nav path={"potd"} /> */}
                 <PotdCard potd={potdGFG} platform={"geeksforgeeks"} />
                 <PotdCard potd={potdLeetcode} platform={"leetcode"} />
-                {/* <a href="https://digitomize.com/contests" target="_blank" rel="noopener noreferrer" className="text-custom-blue text-center my-2 mx-auto w-full flex items-center justify-center">Explore more...</a> */}
+                {/* <a href="https://CodeVault.com/contests" target="_blank" rel="noopener noreferrer" className="text-custom-blue text-center my-2 mx-auto w-full flex items-center justify-center">Explore more...</a> */}
                 {err && <div className="text-center mx-auto my-4">Error: {err || err?.message}</div>}
             </div>
         </>

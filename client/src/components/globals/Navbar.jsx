@@ -42,7 +42,7 @@ function Navbar() {
     },
     {
       title: "Contribute",
-      path: "https://github.com/pranshugupta54/digitomize",
+      path: "https://github.com/pranshugupta54/CodeVault",
     },
     {
       title: "Login",

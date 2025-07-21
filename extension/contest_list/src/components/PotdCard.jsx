@@ -42,7 +42,7 @@ function PotdCard({ potd, platform }) {
                 </div>
 
                     {/* <p>Starts at: <a href={timeAndDateURL} target="_blank"> {startMonth.slice(0, 3)} {startDate}, {startYear} {startTime}</a></p> */}
-                    <a href={potd.problemUrl + "?ref=digitomize&utm_source=digitomize"} target="_blank" rel="noopener noreferrer" className="hover:scale-125 text-custom-blue">
+                    <a href={potd.problemUrl + "?ref=CodeVault&utm_source=CodeVault"} target="_blank" rel="noopener noreferrer" className="hover:scale-125 text-custom-blue">
                         <IoOpenOutline />
                     </a>
 

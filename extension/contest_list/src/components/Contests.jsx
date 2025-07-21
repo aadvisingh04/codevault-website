@@ -12,7 +12,7 @@ function Contests() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const { data } = await axios.get("https://api.digitomize.com/contests")
+                const { data } = await axios.get("https://api.CodeVault.com/contests")
                 setContests(data.results.slice(0, 5));
                 setLoading(false);
                 // console.log(data);
@@ -48,7 +48,7 @@ function Contests() {
                         <ContestCard key={contest.id} contest={contest} />
                     ))
                 }
-                <a href="https://digitomize.com/contests" target="_blank" rel="noopener noreferrer" className="text-custom-blue text-center my-2 mx-auto w-full flex items-center justify-center">Explore more...</a>
+                <a href="https://CodeVault.com/contests" target="_blank" rel="noopener noreferrer" className="text-custom-blue text-center my-2 mx-auto w-full flex items-center justify-center">Explore more...</a>
                 {err && <div className="text-center mx-auto my-4">Error: {err || err?.message}</div>}
             </div>
         </>

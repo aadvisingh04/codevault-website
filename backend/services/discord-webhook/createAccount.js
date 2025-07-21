@@ -28,7 +28,7 @@ function sendWebhook_createAccount ({
 
     webhookClient.send({
       content: "[ <@&1172606485671461014> ] \n" + content,
-      username: "Account created | digitomize",
+      username: "Account created | CodeVault",
       avatarURL: imageURL,
       embeds: [embed],
     });

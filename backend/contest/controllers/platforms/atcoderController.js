@@ -1,6 +1,6 @@
 import https from "https";
 
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 // const { parseISO, getTime } = require('date-fns');
 
 async function atcoder_c () {

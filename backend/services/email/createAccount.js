@@ -47,11 +47,11 @@ const sendEmail = async (recipientEmail, recipientName) => {
     const sendSmtpEmail = new brevo.SendSmtpEmail();
     sendSmtpEmail.templateId = 10;
     sendSmtpEmail.sender = {
-      name: "Digitomize",
-      email: "welcome@digitomize.com",
+      name: "CodeVault",
+      email: "welcome@CodeVault.com",
     };
     sendSmtpEmail.replyTo = {
-      email: "support@digitomize.com",
+      email: "support@CodeVault.com",
       name: "Support",
     };
 

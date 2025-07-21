@@ -1,6 +1,6 @@
-# Digitomize - Client
+# CodeVault - Client
 
-Welcome to the client-side documentation for Digitomize, an open-source platform that combines two main sections: Contests and User Profiles. This documentation covers the structure of the client-side codebase and provides information on how to get started.
+Welcome to the client-side documentation for CodeVault, an open-source platform that combines two main sections: Contests and User Profiles. This documentation covers the structure of the client-side codebase and provides information on how to get started.
 
 ## Table of Contents
 
@@ -88,13 +88,13 @@ Before you begin, ensure you have the following prerequisites installed:
 - Clone the repository:
 
 ```bash
-git clone https://github.com/digitomize/digitomize.git
+git clone https://github.com/CodeVault/CodeVault.git
 ```
 
 - Navigate to the client directory:
 
 ```bash
-cd digitomize/client
+cd CodeVault/client
 ```
 
 - Install dependencies:
@@ -167,11 +167,11 @@ The client-side codebase is responsible for rendering the user interface and int
 npm run dev
 ```
 
-This command will start the development server. You can then access and interact with the Digitomize client application.
+This command will start the development server. You can then access and interact with the CodeVault client application.
 
 ## Contributing
 
-Contributions to the Digitomize project are welcome! If you would like to contribute to the client-side codebase, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file for details on how to contribute.
+Contributions to the CodeVault project are welcome! If you would like to contribute to the client-side codebase, please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file for details on how to contribute.
 
 ### Linting
 - Run `npm run lint` to check for errors using the linter.

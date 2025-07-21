@@ -16,9 +16,9 @@ import { MetaData } from "../../../components/CustomComponents";
 
 
 const socialFields = [
-    { icon: <FaInstagram size={30} />, name: "instagram", placeholder: "https://instagram.com/digitomize" },
+    { icon: <FaInstagram size={30} />, name: "instagram", placeholder: "https://instagram.com/CodeVault" },
     { icon: <FaLinkedin size={30} />, name: "linkedin", placeholder: "https://linkedin.com/in/pranshu54" },
-    { icon: <FaXTwitter size={30} />, name: "twitter", placeholder: "https://twitter.com/digitomize" },
+    { icon: <FaXTwitter size={30} />, name: "twitter", placeholder: "https://twitter.com/CodeVault" },
 ];
 
 

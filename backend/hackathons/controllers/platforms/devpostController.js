@@ -1,5 +1,5 @@
 import https from "https";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import axios from "axios";
 
 async function fetchPageWise (url, page) {

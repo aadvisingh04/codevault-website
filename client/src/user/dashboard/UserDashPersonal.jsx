@@ -213,7 +213,7 @@ export default function UserDashPersonal() {
         <div className="mockup-browser border bg-base-300">
           <div className="mockup-browser-toolbar">
             <div className="input" style={{ marginLeft: "0" }}>
-              {"#include {digitomize} > {personal}"}
+              {"#include {CodeVault} > {personal}"}
             </div>
           </div>
 
@@ -481,7 +481,7 @@ export default function UserDashPersonal() {
         {/* <div className="mockup-browser border bg-base-300 mt-4">
           <div className="mockup-browser-toolbar">
             <div className="input" style={{ marginLeft: "0" }}>
-              {"#include {digitomize} > {socials}"}
+              {"#include {CodeVault} > {socials}"}
             </div>
           </div>
           <div className="flex justify-center px-4 py-16 bg-base-200">

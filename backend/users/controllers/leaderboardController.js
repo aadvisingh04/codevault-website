@@ -23,9 +23,9 @@ const getLeaderboard = async (req, res) => {
         return bRating - aRating;
       });
     } else {
-      users = await User.find({ digitomize_rating: { $gt: 0 } });
+      users = await User.find({ CodeVault_rating: { $gt: 0 } });
       totalUsers = users.length;
-      users.sort((a, b) => b.digitomize_rating - a.digitomize_rating);
+      users.sort((a, b) => b.CodeVault_rating - a.CodeVault_rating);
     }
 
     const top3 = users.slice(0, 3).map((user) => {
@@ -44,7 +44,7 @@ const getLeaderboard = async (req, res) => {
         picture: user.picture,
         name: user.name,
         ...userRatings,
-        digitomize_rating: user.digitomize_rating,
+        CodeVault_rating: user.CodeVault_rating,
         platform_rating: platformRating,
       };
     });
@@ -69,7 +69,7 @@ const getLeaderboard = async (req, res) => {
             ? user.codeforces.rating
             : null
           : null,
-        digitomize_rating: user ? user.digitomize_rating : null,
+        CodeVault_rating: user ? user.CodeVault_rating : null,
         platform_rating: user
           ? user[req.query.platform]
             ? user[req.query.platform].rating
@@ -99,7 +99,7 @@ const getLeaderboard = async (req, res) => {
         picture: user.picture,
         name: user.name,
         ...userRatings,
-        digitomize_rating: user.digitomize_rating,
+        CodeVault_rating: user.CodeVault_rating,
         platform_rating: platformRating,
       };
     });
@@ -111,7 +111,7 @@ const getLeaderboard = async (req, res) => {
         return bRating - aRating;
       });
     } else {
-      leaderboard.sort((a, b) => b.digitomize_rating - a.digitomize_rating);
+      leaderboard.sort((a, b) => b.CodeVault_rating - a.CodeVault_rating);
     }
 
     res.json({

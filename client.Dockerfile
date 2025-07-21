@@ -1,6 +1,6 @@
 FROM node:21-alpine3.18
 
-WORKDIR /digitomize
+WORKDIR /CodeVault
 
 COPY client .
 

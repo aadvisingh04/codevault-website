@@ -31,7 +31,7 @@ const addToGoogleCalendar = ({ name, hackathonStartTimeUnix: startTimeUnix, dura
   const ampm = startHour >= 12 ? "PM" : "AM";
   const formattedStartTimeString = `${startHour % 12 || 12}:${startMinute < 10 ? "0" : ""}${startMinute} ${ampm}`;
 
-  const description = `<hr>🏆<b>Hackathon</b>🏆%0A👨🏻‍💻Name: ${name}%0A🕘Start at: ${formattedStartTimeString}%0A⏱️Duration: ${duration} minutes%0A🚀Host: ${host}%0A🔗Hackathon URL: <a href='${url}'>${url}</a>%0A<hr><i>Thank you for using <a href='https://digitomize.com'>digitomize</a></i>`;
+  const description = `<hr>🏆<b>Hackathon</b>🏆%0A👨🏻‍💻Name: ${name}%0A🕘Start at: ${formattedStartTimeString}%0A⏱️Duration: ${duration} minutes%0A🚀Host: ${host}%0A🔗Hackathon URL: <a href='${url}'>${url}</a>%0A<hr><i>Thank you for using <a href='https://CodeVault.com'>CodeVault</a></i>`;
 
   const googleCalendarUrl = `https://calendar.google.com/calendar/u/0/r/eventedit?dates=${formattedStartTime}/${formattedEndTime}&text=${encodeURIComponent(name)}&details=${description}`;
 
@@ -127,8 +127,8 @@ function HackathonIndividualCard() {
   }, 1000);
 
   const contentDescription = `${name} | ${startTime} (IST)`.toLowerCase();
-  const contentTitle = `${host} | Digitomize`.toLowerCase();
-  const pageTitle = `${name} | Digitomize`.toLowerCase();
+  const contentTitle = `${host} | CodeVault`.toLowerCase();
+  const pageTitle = `${name} | CodeVault`.toLowerCase();
   if (hackathon)
     return (
       <>
@@ -411,7 +411,7 @@ function HackathonIndividualCard() {
                   </div>
 
                   <a
-                    href={url + "?ref=digitomize&utm_source=digitomize"}
+                    href={url + "?ref=CodeVault&utm_source=CodeVault"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mv-btn-div"
@@ -927,7 +927,7 @@ function HackathonIndividualCard() {
                       </button>
                     </div>
                     <a
-                      href={url + "?ref=digitomize&utm_source=digitomize"}
+                      href={url + "?ref=CodeVault&utm_source=CodeVault"}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-div"

@@ -22,4 +22,4 @@ We reserve the right to update or modify this privacy policy at any time. Any ch
 
 ## Contact Us
 
-If you have any questions or concerns about our privacy practices or this policy, please contact us at [support@digitomize.com](mailto:support@digitomize.com).
+If you have any questions or concerns about our privacy practices or this policy, please contact us at [support@CodeVault.com](mailto:support@CodeVault.com).

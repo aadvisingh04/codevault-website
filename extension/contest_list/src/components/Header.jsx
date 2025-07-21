@@ -1,4 +1,4 @@
-import logo from "../assets/digitomizeLogo.png";
+import logo from "../assets/CodeVaultLogo.png";
 function Header() {
     return (
         <>
@@ -9,7 +9,7 @@ function Header() {
                 <div className="text-white text-xl mx-auto text-center">
                     <span>One place for all your</span>
                     <span className="block mt-1 relative">
-                        <span className="bg-digitomize-bg px-1 relative">
+                        <span className="bg-CodeVault-bg px-1 relative">
                             <span className="relative z-10">
                                 coding platforms
                             </span>

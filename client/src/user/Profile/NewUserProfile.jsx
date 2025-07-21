@@ -18,7 +18,7 @@ function NewUserProfile() {
       ? personal_data.bio.substring(0, 30) + "..."
       : personal_data.bio
   }`;
-  const pageTitle = `${personal_data.name} | digitomize`;
+  const pageTitle = `${personal_data.name} | CodeVault`;
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -37,7 +37,7 @@ function NewUserProfile() {
   return (
     <>
       {/* <Helmet>
-        <title>{personal_data.name} | digitomize</title>
+        <title>{personal_data.name} | CodeVault</title>
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={contentDescription} />
         <meta name="description" content={contentDescription} />

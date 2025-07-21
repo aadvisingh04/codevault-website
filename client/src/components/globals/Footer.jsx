@@ -20,7 +20,7 @@ export default function Footer() {
               alt="logo"
               className="max-w-[7rem] max-h-[7rem] mb-2"
             />
-            <h2 className="text-2xl my-3">Digitomize</h2>
+            <h2 className="text-2xl my-3">CodeVault</h2>
           </Link>
 
           <p className="text-base-content text-md max-w-[230px] mb-5">
@@ -29,11 +29,11 @@ export default function Footer() {
           </p>
 
           <GitHubButton
-            href="https://github.com/digitomize/digitomize"
+            href="https://github.com/CodeVault/CodeVault"
             data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: light;"
             data-size="large"
             data-show-count="true"
-            aria-label="Star digitomize/digitomize on GitHub"
+            aria-label="Star CodeVault/CodeVault on GitHub"
           >
             Star
           </GitHubButton>
@@ -114,7 +114,7 @@ export default function Footer() {
               href="/about"
               className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg"
             >
-              About Digitomize
+              About CodeVault
             </a>
             <a
               href="https://discord.com/invite/bsbBytBqBc"
@@ -124,7 +124,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://blogs.digitomize.com/"
+              href="https://blogs.CodeVault.com/"
               className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg"
               target="_blank"
               rel="noopener noreferrer"
@@ -140,7 +140,7 @@ export default function Footer() {
             </header>
             <div className="flex gap-8 lg:gap-3">
               <a
-                href="https://www.linkedin.com/company/digitomize"
+                href="https://www.linkedin.com/company/CodeVault"
                 className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -152,7 +152,7 @@ export default function Footer() {
                 <span className="sr-only">linkedin link</span>
               </a>
               <a
-                href="https://twitter.com/intent/follow?screen_name=digitomize&tw_p=followbutton"
+                href="https://twitter.com/intent/follow?screen_name=CodeVault&tw_p=followbutton"
                 className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -176,7 +176,7 @@ export default function Footer() {
                 <span className="sr-only">discord link</span>
               </a>
               <a
-                href="https://instagram.com/digitomize"
+                href="https://instagram.com/CodeVault"
                 className="link hover:no-underline link-hover text-white hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -192,9 +192,9 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-center w-full text-sm">
-        &copy; {copyrightDate} Digitomize.{" "}
+        &copy; {copyrightDate} CodeVault.{" "}
         <a
-          href="https://github.com/digitomize/digitomize/blob/main/LICENSE"
+          href="https://github.com/CodeVault/CodeVault/blob/main/LICENSE"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
@@ -203,7 +203,7 @@ export default function Footer() {
         </a>
         . Contribute on{" "}
         <a
-          href="https://github.com/digitomize/digitomize"
+          href="https://github.com/CodeVault/CodeVault"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"

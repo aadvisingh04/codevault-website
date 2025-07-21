@@ -188,7 +188,7 @@ function Filter() {
         {contestsData.length ? (
           <>
             <p className="mx-auto text-center mt-4 text-xl">
-              Have a favorite contest platform we're missing? {" "} Join our <a href="https://digitomize.com/discord" target="_blank" rel="noopener noreferrer" className="text-digitomize-bg">Discord</a> or <button className="text-digitomize-bg" onClick={handleClick}>
+              Have a favorite contest platform we're missing? {" "} Join our <a href="https://CodeVault.com/discord" target="_blank" rel="noopener noreferrer" className="text-CodeVault-bg">Discord</a> or <button className="text-CodeVault-bg" onClick={handleClick}>
               click here
             </button> and let us know!
             </p>

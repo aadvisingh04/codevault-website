@@ -41,7 +41,7 @@ function HackathonsFilter() {
         {hackathonsData.length ? (
           <>
             <p className="mx-auto text-center mt-4 text-xl">
-              Want hackathons from more platforms?{" "} Join our <a href="https://digitomize.com/discord" target="_blank" rel="noopener noreferrer" className="text-digitomize-bg">Discord</a> or <button className="text-digitomize-bg" onClick={handleClick}>
+              Want hackathons from more platforms?{" "} Join our <a href="https://CodeVault.com/discord" target="_blank" rel="noopener noreferrer" className="text-CodeVault-bg">Discord</a> or <button className="text-CodeVault-bg" onClick={handleClick}>
                 click here
               </button> and let us know!
             </p>

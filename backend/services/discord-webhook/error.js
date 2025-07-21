@@ -17,7 +17,7 @@ function sendErrorLog (title, description) {
 
     webhookClient.send({
       content: "<@&1172645697917550644>",
-      username: "Error logging | digitomize",
+      username: "Error logging | CodeVault",
       avatarURL:
         "https://res.cloudinary.com/dsazw0r59/image/upload/logo_bg_y5ixum.jpg",
       embeds: [embed],

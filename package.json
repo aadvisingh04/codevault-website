@@ -1,5 +1,5 @@
 {
-  "name": "digitomize",
+  "name": "CodeVault",
   "version": "2.1.1",
   "description": "",
   "main": "index.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pranshugupta54/digitomize.git"
+    "url": "git+https://github.com/pranshugupta54/CodeVault.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pranshugupta54/digitomize/issues"
+    "url": "https://github.com/pranshugupta54/CodeVault/issues"
   },
-  "homepage": "https://github.com/pranshugupta54/digitomize#readme",
+  "homepage": "https://github.com/pranshugupta54/CodeVault#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.26.1",
     "concurrently": "^8.2.2",

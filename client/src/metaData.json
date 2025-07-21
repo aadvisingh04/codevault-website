@@ -1,15 +1,15 @@
 {
   "/": {
-    "title": "Digitomize",
+    "title": "CodeVault",
     "description": "Empowering Coders and Developers Worldwide"
   },
   "/about": {
-    "title": "About | Digitomize",
+    "title": "About | CodeVault",
     "description": "Empowering Coders and Developers Worldwide"
   },
   "/contests": {
-    "title": "contests | digitomize",
-    "description": "Discover upcoming coding contests on Digitomize and stay in the loop with the latest challenges. Join us, take part, and put your coding skills to the test!"
+    "title": "contests | CodeVault",
+    "description": "Discover upcoming coding contests on CodeVault and stay in the loop with the latest challenges. Join us, take part, and put your coding skills to the test!"
   },
   "/contact": {
     "title": "Contact Us",
@@ -17,19 +17,19 @@
   },
   "/login": {
     "title": "Login",
-    "description": "Log in to your Digitomize account."
+    "description": "Log in to your CodeVault account."
   },
   "/logout": {
     "title": "Logout",
-    "description": "Log out from your Digitomize account."
+    "description": "Log out from your CodeVault account."
   },
   "/signup": {
     "title": "Sign Up",
-    "description": "Create a new account on Digitomize."
+    "description": "Create a new account on CodeVault."
   },
   "/updates": {
     "title": "Updates",
-    "description": "Stay updated with the latest news and developments from Digitomize."
+    "description": "Stay updated with the latest news and developments from CodeVault."
   },
   "/home": {
     "title": "Home",
@@ -37,11 +37,11 @@
   },
   "/feedback": {
     "title": "Feedback",
-    "description": "Provide your valuable feedback to Digitomize."
+    "description": "Provide your valuable feedback to CodeVault."
   },
   "/discord": {
     "title": "Discord Redirect",
-    "description": "Redirecting to Digitomize's Discord channel."
+    "description": "Redirecting to CodeVault's Discord channel."
   },
   "/404": {
     "title": "Error 404",
@@ -49,7 +49,7 @@
   },
   "/u/leaderboard": {
     "title": "Leaderboard",
-    "description": "Check the leaderboard for top performers on Digitomize."
+    "description": "Check the leaderboard for top performers on CodeVault."
   },
   "": {
     "title": "idk",

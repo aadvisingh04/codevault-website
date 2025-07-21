@@ -20,8 +20,8 @@ const handleUserPlatformUpdate = async (username, platform) => {
   return null; // Handle unsupported platform case if needed
 };
 
-const calculateDigitomizeRating = (user) => {
-  let maxDigitomizeRating = 0;
+const calculateCodeVaultRating = (user) => {
+  let maxCodeVaultRating = 0;
 
   ["codeforces", "codechef", "leetcode"].forEach((platform) => {
     const platformData = user[platform];
@@ -32,13 +32,13 @@ const calculateDigitomizeRating = (user) => {
         codeforces: 1,
       };
       const platformRating = platformData.rating * weightage[platform];
-      if (platformRating > maxDigitomizeRating) {
-        maxDigitomizeRating = platformRating;
+      if (platformRating > maxCodeVaultRating) {
+        maxCodeVaultRating = platformRating;
       }
     }
   });
 
-  return maxDigitomizeRating;
+  return maxCodeVaultRating;
 };
 
 // Updates user data in DB
@@ -72,8 +72,8 @@ const handleUserDataUpdate = async (user) => {
       }
     }
   }
-  user.digitomize_rating = calculateDigitomizeRating(user);
-  // console.log("new:", user.digitomize_rating);
+  user.CodeVault_rating = calculateCodeVaultRating(user);
+  // console.log("new:", user.CodeVault_rating);
 
   // Save the updated user object in MongoDB
   if (changes) {
@@ -127,7 +127,7 @@ const handleUserProfilePreview = async (req, res) => {
         twitter: user.social.twitter,
       },
       ratings: {
-        digitomize_rating: user.digitomize_rating,
+        CodeVault_rating: user.CodeVault_rating,
       },
     };
 

@@ -116,7 +116,7 @@ export default function SectionTwo() {
               }}
               className="max-md:text-4xl md:text-6xl font-['Geist'] my-0 text-white font-semibold"
             >
-              Build your <span className="bg-digitomize-bg px-2 ">Dynamic</span>{" "}
+              Build your <span className="bg-CodeVault-bg px-2 ">Dynamic</span>{" "}
               Profile
             </motion.h2>
             <motion.p
@@ -212,7 +212,7 @@ export default function SectionTwo() {
 
                   <div className="bg-window text-[#B7B6FF] rounded-full text-sm tracking-wide flex justify-center w-full py-0.5 my-2 items-center">
                     <a className="py-1" href="/u/dashboard">
-                      https://digitomize.com/u/dashboard
+                      https://CodeVault.com/u/dashboard
                     </a>
                   </div>
                   <div className="bg-window rounded-lg mx-2 my-2 px-1 py-1">

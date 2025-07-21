@@ -1,6 +1,6 @@
 # Contact Information
 
-Thank you for your interest in [Digitomize](https://github.com/digitomize/digitomize). We welcome your feedback, contributions, and questions. Here are the various ways you can get in touch with us:
+Thank you for your interest in [CodeVault](https://github.com/CodeVault/CodeVault). We welcome your feedback, contributions, and questions. Here are the various ways you can get in touch with us:
 
 ## Issues
 
@@ -8,22 +8,22 @@ If you encounter any bugs, have feature requests, or want to suggest improvement
 
 ## Discussion and Support
 
-- [Discord Community](https://digitomize.com/discord): Join our Discord server for real-time discussions and community interaction.
+- [Discord Community](https://CodeVault.com/discord): Join our Discord server for real-time discussions and community interaction.
 
 ## Social Media
 
 Follow us on social media for the latest updates and announcements:
 
-- [LinkedIn](https://www.linkedin.com/company/digitomize/)
-- [Instagram](https://www.instagram.com/digitomize/)
-- [Twitter](https://twitter.com/digitomize)
+- [LinkedIn](https://www.linkedin.com/company/CodeVault/)
+- [Instagram](https://www.instagram.com/CodeVault/)
+- [Twitter](https://twitter.com/CodeVault)
 
 ## Email
 
 You can also reach out to us via email:
 
-- For General inquiries, Support requests, and Bug reports, please reach out to us at [support@digitomize.com](mailto:support@digitomize.com)
-- For Partnerships or collaborations, feel free to contact Pranshu directly at [pranshu@digitomize.com](mailto:pranshu@digitomize.com)
+- For General inquiries, Support requests, and Bug reports, please reach out to us at [support@CodeVault.com](mailto:support@CodeVault.com)
+- For Partnerships or collaborations, feel free to contact Pranshu directly at [pranshu@CodeVault.com](mailto:pranshu@CodeVault.com)
 
 ## Contribution Guidelines
 

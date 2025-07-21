@@ -15,7 +15,7 @@ import metaData from "./metaData.json";
 const location = window.location.pathname;
 const currentPageData = metaData[location];
 
-const defaultTitle = "digitomize";
+const defaultTitle = "CodeVault";
 const defaultDesc = "Empowering Coders and Developers Worldwide";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

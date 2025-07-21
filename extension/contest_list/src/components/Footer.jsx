@@ -14,7 +14,7 @@ export default function Footer() {
                     <nav className="flex mx-auto">
                         <div className="flex gap-8 lg:gap-3 items-center p-2">
                             <a
-                                href="https://digitomize.com"
+                                href="https://CodeVault.com"
                                 className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function Footer() {
                                 <span className="sr-only">website link</span>
                             </a>
                             <a
-                                href="https://www.linkedin.com/company/digitomize"
+                                href="https://www.linkedin.com/company/CodeVault"
                                 className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <span className="sr-only">linkedin link</span>
                             </a>
                             <a
-                                href="https://twitter.com/intent/follow?screen_name=digitomize&tw_p=followbutton"
+                                href="https://twitter.com/intent/follow?screen_name=CodeVault&tw_p=followbutton"
                                 className="link hover:no-underline link-hover hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ export default function Footer() {
                                 <span className="sr-only">discord link</span>
                             </a>
                             <a
-                                href="https://instagram.com/digitomize"
+                                href="https://instagram.com/CodeVault"
                                 className="link hover:no-underline link-hover text-white hover:text-custom-blue hover:scale-110 transition-all text-lg m-auto"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -77,9 +77,9 @@ export default function Footer() {
                     </nav>
                 </div>
                 <p className="text-center w-full text-xs">
-                    &copy; {copyrightDate} <a href="https://digitomize.com"> Digitomize</a>.{" "}
+                    &copy; {copyrightDate} <a href="https://CodeVault.com"> CodeVault</a>.{" "}
                     <a
-                        href="https://github.com/digitomize/digitomize/blob/main/LICENSE"
+                        href="https://github.com/CodeVault/CodeVault/blob/main/LICENSE"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="underline"
@@ -88,7 +88,7 @@ export default function Footer() {
                     </a>
                     . Contribute on{" "}
                     <a
-                        href="https://github.com/digitomize/digitomize"
+                        href="https://github.com/CodeVault/CodeVault"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="underline"

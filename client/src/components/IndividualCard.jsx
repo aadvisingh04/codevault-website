@@ -103,8 +103,8 @@ function IndividualCard() {
   }, []);
 
   const contentDescription = `${name} | ${startTimeIST} (IST)`.toLowerCase();
-  const contentTitle = `${host} | Digitomize`.toLowerCase();
-  const pageTitle = `${name} | Digitomize`.toLowerCase();
+  const contentTitle = `${host} | CodeVault`.toLowerCase();
+  const pageTitle = `${name} | CodeVault`.toLowerCase();
   return (
     <>
       <Helmet>
@@ -116,9 +116,9 @@ function IndividualCard() {
       {true &&
         <div className="mx-auto w-fit mt-4">
           <Alert severity="warning" className="w-fit" icon={<Star className="animate-ping" />}>
-            <a href="https://github.com/digitomize/digitomize" target="_blank" rel="noreferrer">
+            <a href="https://github.com/CodeVault/CodeVault" target="_blank" rel="noreferrer">
               <AlertTitle>
-                {/* <strong>🎉 digitomize</strong> */}
+                {/* <strong>🎉 CodeVault</strong> */}
                 <span className="normal-case"> Thank you for <strong>100+ stars</strong> on GitHub 🎉🎉
                 </span>
               </AlertTitle>

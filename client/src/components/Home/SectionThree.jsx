@@ -21,7 +21,7 @@ export default function SectionThree() {
               className="text-white max-md:text-4xl md:text-7xl text-center"
             >
               <span className="block mt-1 md:mt-6">
-                <span className="bg-digitomize-bg px-2">Discover</span> the
+                <span className="bg-CodeVault-bg px-2">Discover</span> the
                 perfect coding competition for you
               </span>{" "}
             </motion.h1>

@@ -71,7 +71,7 @@ const handleUserDashboard = async (req, res) => {
           data: user.leetcode.username || null,
           showOnWebsite: user.leetcode.showOnWebsite,
         },
-        digitomize_rating: user.digitomize_rating,
+        CodeVault_rating: user.CodeVault_rating,
       },
     };
     // console.log(jsonResponse.education);

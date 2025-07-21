@@ -39,7 +39,7 @@ const SheetHome = () => {
           <p className="sm:text-xl leading-relaxed text-muted-foreground sm:w-3/4 tracking-tight normal-case ">
             Coding Sheets are a wonderful resource to proactively practice your
             DSA skills.
-            <br /> Digitomize bring to you the{" "}
+            <br /> CodeVault bring to you the{" "}
             <span className="text-custom-blue">
               most popular DSA sheets
             </span>{" "}

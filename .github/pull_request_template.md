@@ -31,7 +31,7 @@
 
 ### Checklist
 
-- [ ] I have read and followed the [Pull Requests and Issues guidelines](https://github.com/digitomize/digitomize/blob/main/PR_GUIDELINES.md#pull-requests-and-issues).
+- [ ] I have read and followed the [Pull Requests and Issues guidelines](https://github.com/CodeVault/CodeVault/blob/main/PR_GUIDELINES.md#pull-requests-and-issues).
 - [ ] The code has been properly linted and formatted using `npm run lint:fix` and `npm run format:fix`.
 - [ ] I have tested the changes thoroughly before submitting this pull request.
 - [ ] I have provided relevant issue numbers, snapshots, and videos after making the changes.

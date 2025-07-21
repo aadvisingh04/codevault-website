@@ -6,7 +6,7 @@ const questions = [
         type: 'input',
         name: 'MONGODB_URL',
         message: 'Enter MongoDB URL:',
-        default: 'mongodb://127.0.0.1:27017/digitomize',
+        default: 'mongodb://127.0.0.1:27017/CodeVault',
         validate: function (value) {
             if (value.trim()) {
                 return true;

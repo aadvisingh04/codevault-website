@@ -8,17 +8,17 @@ const getPageMetadata = (path) => {
         "contests": {
             title: "Contests",
             description:
-                "Discover upcoming coding contests on Digitomize and stay in the loop with the latest challenges. Join us, take part, and put your coding skills to the test!",
+                "Discover upcoming coding contests on CodeVault and stay in the loop with the latest challenges. Join us, take part, and put your coding skills to the test!",
         },
         "challenges": {
             title: "Challenges",
             description:
-                "Discover upcoming coding challenges on Digitomize and stay in the loop with the latest contests. Join us, take part, and put your coding skills to the test!",
+                "Discover upcoming coding challenges on CodeVault and stay in the loop with the latest contests. Join us, take part, and put your coding skills to the test!",
         },
         "hackathons": {
             title: "Hackathons",
             description: 
-                "Discover Hackathons on Digitomize and stay in the loop with the latest hackathons. Join us, take part, and put your coding skills to the test!",
+                "Discover Hackathons on CodeVault and stay in the loop with the latest hackathons. Join us, take part, and put your coding skills to the test!",
         },
         "contact": {
             title: "Contact Us",
@@ -26,19 +26,19 @@ const getPageMetadata = (path) => {
         },
         "login": {
             title: "Login",
-            description: "Log in to your Digitomize account.",
+            description: "Log in to your CodeVault account.",
         },
         "logout": {
             title: "Logout",
-            description: "Log out from your Digitomize account.",
+            description: "Log out from your CodeVault account.",
         },
         "signup": {
             title: "Sign Up",
-            description: "Create a new account on Digitomize.",
+            description: "Create a new account on CodeVault.",
         },
         "updates": {
             title: "Updates",
-            description: "Stay updated with the latest news and developments from Digitomize.",
+            description: "Stay updated with the latest news and developments from CodeVault.",
         },
         "home": {
             title: "Home",
@@ -46,11 +46,11 @@ const getPageMetadata = (path) => {
         },
         "feedback": {
             title: "Feedback",
-            description: "Provide your valuable feedback to Digitomize.",
+            description: "Provide your valuable feedback to CodeVault.",
         },
         "discord": {
             title: "Discord Redirect",
-            description: "Redirecting to Digitomize's Discord channel.",
+            description: "Redirecting to CodeVault's Discord channel.",
         },
         "404": {
             title: "Error 404",
@@ -58,11 +58,11 @@ const getPageMetadata = (path) => {
         },
         "u/leaderboard": {
             title: "Leaderboard",
-            description: "Check the leaderboard for top performers on Digitomize.",
+            description: "Check the leaderboard for top performers on CodeVault.",
         },
         "u/dashboard": {
             title: "Dashboard",
-            description: "Check the leaderboard for top performers on Digitomize.",
+            description: "Check the leaderboard for top performers on CodeVault.",
         },
         "u/dashboard/account": {
             title: "Account",
@@ -94,7 +94,7 @@ const getPageMetadata = (path) => {
         },
         "u/dashboard/github": {
             title: "Github",
-            description: "Check the leaderboard for top performers on Digitomize.",
+            description: "Check the leaderboard for top performers on CodeVault.",
         },
         "null": {
             title: "",
@@ -104,18 +104,18 @@ const getPageMetadata = (path) => {
 
     const { title, description } = metadata[path] || metadata["404"];
     const keywords = description.split(" ");
-    keywords.push("codechef", "codeforces", "leetcode", "atcoder", "hackerrank", "hackerearth", "topcoder", "kaggle", "digitomize", "digitomize.com", "digitomize contests", "digitomize challenges", "digitomize hackathons", "digitomize internships", "digitomize jobs", "digitomize updates", "digitomize feedback", "digitomize contact", "digitomize about", "digitomize discord", "digitomize 404", "digitomize leaderboard");
+    keywords.push("codechef", "codeforces", "leetcode", "atcoder", "hackerrank", "hackerearth", "topcoder", "kaggle", "CodeVault", "CodeVault.com", "CodeVault contests", "CodeVault challenges", "CodeVault hackathons", "CodeVault internships", "CodeVault jobs", "CodeVault updates", "CodeVault feedback", "CodeVault contact", "CodeVault about", "CodeVault discord", "CodeVault 404", "CodeVault leaderboard");
 
     keywords.push("algorithm", "data structure", "binary search", "sorting", "searching", "dynamic programming", "greedy", "graph", "tree", "heap", "queue", "stack", "linked list", "hashing", "recursion", "backtracking", "bit manipulation", "segment tree", "fenwick tree", "disjoint set", "competitive programming", "code jam", "kick start", "google code jam", "facebook hacker cup", "acm icpc", "online judge", "competitive coding", "contest", "codeforces round", "leetcode contest", "atcoder contest", "hackerrank challenge", "hackerearth challenge", "topcoder open");
     // const image = "https://res.cloudinary.com/dsazw0r59/image/upload/c_fit,q_100,w_250/v1693023476/logo_bg_y5ixum.jpg";
     const image = "";
 
     return {
-        title: `${title} | Digitomize`,
+        title: `${title} | CodeVault`,
         description,
         keywords,
         image,
-        url: `https://digitomize.com/${path}`,
+        url: `https://CodeVault.com/${path}`,
     };
 };
 
@@ -149,8 +149,8 @@ const MetaData = ({ path = "null" }) => {
                 <meta name="twitter:description" content={getPageMetadata(path).description} />
                 <meta name="twitter:image" content={getPageMetadata(path).image} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@digitomize" />
-                <meta name="twitter:creator" content="@digitomize" />
+                <meta name="twitter:site" content="@CodeVault" />
+                <meta name="twitter:creator" content="@CodeVault" />
 
                 {/* Canonical URL */}
                 <link rel="canonical" href={getPageMetadata(path).url} />

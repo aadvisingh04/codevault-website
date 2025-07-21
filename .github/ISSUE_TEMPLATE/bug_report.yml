@@ -50,7 +50,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/digitomize/digitomize/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/CodeVault/CodeVault/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I have used the search function to check if an issue already exists
         - label: I agree to follow this project's Code of Conduct

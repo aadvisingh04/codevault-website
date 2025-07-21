@@ -1,11 +1,11 @@
 {
-  "name": "digitomize",
-  "short_name": "digitomize",
+  "name": "CodeVault",
+  "short_name": "CodeVault",
   "theme_color": "#1582ff",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "https://www.digitomize.com/u/dashboard",
-  "start_url": "https://www.digitomize.com/u/dashboard",
+  "scope": "https://www.CodeVault.com/u/dashboard",
+  "start_url": "https://www.CodeVault.com/u/dashboard",
   "icons": [
     {
       "src": "https://res.cloudinary.com/dsazw0r59/image/upload/v1697627259/logox48.png",

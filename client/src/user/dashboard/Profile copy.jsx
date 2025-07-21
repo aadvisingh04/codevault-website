@@ -80,7 +80,7 @@ function UserDashBoardProfile() {
     <>
       <ToastContainer />
       <div className="border border-jet border-solid rounded-md bg-cardsColor sm:px-[40px] sm:pt-[42px] sm:pb-[30px] px-6 py-5 w-full font-['Geist'] ">
-        <h2 className='font-bold text-white text-4xl max-sm:text-2xl sm:mb-[30px] mb-[20px]'>Set up your digitomize account</h2>
+        <h2 className='font-bold text-white text-4xl max-sm:text-2xl sm:mb-[30px] mb-[20px]'>Set up your CodeVault account</h2>
         <div>
           <div className="relative z-0 w-full md:w-3/4 mb-5  group flex items-center gap-3">
             <div className="form-control w-full">

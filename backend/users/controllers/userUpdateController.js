@@ -29,7 +29,7 @@ const updatePlatformData = (platform, userData, existingData, user) => {
       existingData.attendedContestsCount = null;
       existingData.badge = null;
       existingData.fetchTime = 0;
-      user.digitomize_rating = 0;
+      user.CodeVault_rating = 0;
     }
     // You can similarly update other properties specific to each platform
   }

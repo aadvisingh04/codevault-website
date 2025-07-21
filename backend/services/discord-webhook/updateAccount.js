@@ -24,7 +24,7 @@ function sendWebhook_updateAccount ({
 
     // Send old and new embeds
     webhookClient.send({
-      username: "Account updated | digitomize",
+      username: "Account updated | CodeVault",
       avatarURL:
         "https://res.cloudinary.com/dsazw0r59/image/upload/logo_bg_y5ixum.jpg",
       embeds: [...oldEmbeds, ...newEmbeds],
@@ -54,7 +54,7 @@ function createEmbeds (titlePrefix, username, image, data) {
       name: "username",
       value: `[${safeString(
         data?.username,
-      )}](https://digitomize.com/u/${safeString(data?.username)})`,
+      )}](https://CodeVault.com/u/${safeString(data?.username)})`,
       inline: true,
     },
     { name: "role", value: safeString(data?.role), inline: true },
@@ -107,8 +107,8 @@ function createEmbeds (titlePrefix, username, image, data) {
       inline: true,
     },
     {
-      name: "digitomize_rating",
-      value: safeString(data?.digitomize_rating),
+      name: "CodeVault_rating",
+      value: safeString(data?.CodeVault_rating),
       inline: true,
     },
   );

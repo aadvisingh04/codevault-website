@@ -29,7 +29,7 @@ function ProfileLayout() {
               <>
                 <Helmet>
                   <title>
-                    {loadedProfileData.personal_data.name} | Digitomize
+                    {loadedProfileData.personal_data.name} | CodeVault
                   </title>
 
                   {/* Page Description */}
@@ -37,7 +37,7 @@ function ProfileLayout() {
                     name="description"
                     content={
                       `${loadedProfileData.personal_data.bio?.slice(0, 200) ||
-                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on Digitomize`
+                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on CodeVault`
                     }
                   />
 
@@ -58,7 +58,7 @@ function ProfileLayout() {
                     property="og:description"
                     content={
                       `${loadedProfileData.personal_data.bio?.slice(0, 200) ||
-                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on Digitomize`
+                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on CodeVault`
                     }
                   />
                   {/* <meta property="og:description" content={loadedProfileData.personal_data.bio?.slice(0, 200) ?? loadedProfileData.personal_data.name ?? ''} /> */}
@@ -81,7 +81,7 @@ function ProfileLayout() {
                     name="twitter:description"
                     content={
                       `${loadedProfileData.personal_data.bio?.slice(0, 200) ||
-                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on Digitomize`
+                      loadedProfileData.personal_data.name} | Check contest ratins and connect today! - Find more about ${loadedProfileData.personal_data.name} on CodeVault`
                     }
                   />
                   <meta
@@ -89,8 +89,8 @@ function ProfileLayout() {
                     content={loadedProfileData.personal_data.picture}
                   />
                   <meta name="twitter:card" content="summary" />
-                  <meta name="twitter:site" content="@digitomize" />
-                  <meta name="twitter:creator" content="@digitomize" />
+                  <meta name="twitter:site" content="@CodeVault" />
+                  <meta name="twitter:creator" content="@CodeVault" />
 
                   {/* Canonical URL */}
                   <link

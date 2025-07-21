@@ -10,7 +10,7 @@ services:
       - "5173:5173"
     environment:
       - VITE_REACT_APP_BACKEND_URL=http://localhost:4001
-      - VITE_REACT_APP_FRONTEND_URL=https://www.digitomize.com
+      - VITE_REACT_APP_FRONTEND_URL=https://www.CodeVault.com
       - VITE_REACT_APP_CLOUDINARY_API_KEY=
       - VITE_REACT_APP_CLOUDINARY_CLOUD_NAME=
       - VITE_REACT_APP_API_KEY=
@@ -31,7 +31,7 @@ services:
     ports:
       - "4001:4001"
     environment:
-      - MONGODB_URL=mongodb://127.0.0.1:27017/digitomize
+      - MONGODB_URL=mongodb://127.0.0.1:27017/CodeVault
       - PORT=4001
       - BACKEND_URL=http://localhost:4001
       - CONTESTS=true

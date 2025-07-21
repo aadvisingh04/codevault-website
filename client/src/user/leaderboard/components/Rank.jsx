@@ -7,7 +7,7 @@ const Rank = ({ color, pt = 6, user, selectedPlatform }) => {
   // console.log(user);
   let rating;
   if (user) {
-    if (selectedPlatform.length == 0) rating = user.digitomize_rating;
+    if (selectedPlatform.length == 0) rating = user.CodeVault_rating;
     else if (selectedPlatform === "leetcode") rating = user.leetcode;
     else if (selectedPlatform === "codechef") rating = user.codechef;
     else rating = user.codeforces;

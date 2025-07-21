@@ -27,7 +27,7 @@ export default {
         myFont: ["myFont", "Outfit"],
       },
       colors: {
-        "digitomize-bg": "#1584FF",
+        "CodeVault-bg": "#1584FF",
         paragraph: "#CCCCCC",
         "button-primary": "#1584FF",
         footer: "#131527",

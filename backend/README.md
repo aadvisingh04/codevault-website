@@ -91,8 +91,8 @@ The backend folder is organized into several directories, each serving a specifi
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/pranshugupta54/digitomize.git`
-2. Navigate to the backend directory: `cd digitomize/backend`
+1. Clone the repository: `git clone https://github.com/pranshugupta54/CodeVault.git`
+2. Navigate to the backend directory: `cd CodeVault/backend`
 3. Install dependencies: `npm install`
 
 ### Environment Variables
@@ -115,7 +115,7 @@ The backend folder is organized into several directories, each serving a specifi
 
 ```bash
 TEST=Env file connected.
-MONGODB_URL=mongodb://127.0.0.1:27017/digitomize
+MONGODB_URL=mongodb://127.0.0.1:27017/CodeVault
 PORT=4001
 BACKEND_URL=http://localhost:4001
 CONTESTS=true
@@ -128,12 +128,12 @@ NODE_ENV=development
 
 ### The Environment Variables in `.env`
 
-This `.env` file must be populated with the following environment variables for digitomize to work:
+This `.env` file must be populated with the following environment variables for CodeVault to work:
 
 | Variable              | Explanation                                                                                            |
 |-----------------------|--------------------------------------------------------------------------------------------------------|
 | TEST                  | Marker indicating that the environment file is successfully connected.                                 |
-| MONGODB_URL           | URL for connecting Digitomize to the MongoDB database. |
+| MONGODB_URL           | URL for connecting CodeVault to the MongoDB database. |
 | PORT                  | Port on which the application will run.                                                                |
 | BACKEND_URL           | URL of the backend server.                                                                             |
 | CONTESTS              | Controls whether the application should fetch contest data.                                            |
@@ -142,7 +142,7 @@ This `.env` file must be populated with the following environment variables for 
 | FIREBASE_CREDENTIALS | Variable intended for storing Firebase credential in JSON format.                               |
 
 ## Linking MongoDB
-To connect Digitomize to the database side, two options are available: MongoDB atlas or hosting a local instance. Here is a setup guide on both options.
+To connect CodeVault to the database side, two options are available: MongoDB atlas or hosting a local instance. Here is a setup guide on both options.
 
 ### Setting up Atlas
 1. **Sign Up/Login to MongoDB Atlas**:
@@ -210,7 +210,7 @@ To use MongoDB locally, you need to first download MongoDB locally and then upda
    - Run the `mongo` command to open the MongoDB shell.
    - If MongoDB is running properly, you should see a prompt indicating that you've connected to the MongoDB server.
 ### Update the `.env`:
-      MONGODB_URL=mongodb://127.0.0.1:27017/digitomize
+      MONGODB_URL=mongodb://127.0.0.1:27017/CodeVault
     
 ## Firebase Credentials
 
@@ -249,4 +249,4 @@ Start the server: `npm start`
 
 ## API Routes
 
-- https://digitomize.stoplight.io/docs/digitomize-api
+- https://CodeVault.stoplight.io/docs/CodeVault-api

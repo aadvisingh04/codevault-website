@@ -150,7 +150,7 @@ function BasicInfo({formData,setFormData,handleInputChange,handleInputChangeObjD
                                 <label className="text-xs font-medium text-secondary">Brief bio</label>
                                 <label className="ml-1 text-xs font-medium text-secondary">{formData.bio?.data?.length || 0}/{BIO_LIMIT}</label>
                             </div>
-                            <textarea style={{ backgroundColor: "RGB(17, 19, 18)" }} className="placeholder:text-gray-600 textarea textarea-bordered h-24 w-full" placeholder="Ex: Developer @ digitomize" maxLength={BIO_LIMIT} onChange={handleInputChangeObjData} value={formData.bio.data} name="bio" id="bio" />
+                            <textarea style={{ backgroundColor: "RGB(17, 19, 18)" }} className="placeholder:text-gray-600 textarea textarea-bordered h-24 w-full" placeholder="Ex: Developer @ CodeVault" maxLength={BIO_LIMIT} onChange={handleInputChangeObjData} value={formData.bio.data} name="bio" id="bio" />
                         </div>
                     </div>
                 </div>

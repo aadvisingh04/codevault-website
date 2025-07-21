@@ -33,7 +33,7 @@ export default function ContestPage() {
         <h1 className="text-white max-md:text-4xl md:text-6xl flex flex-row mx-auto justify-center">
           <span>All att</span>
           <span className="block mt-1 md:mt-6">
-            <span className="bg-digitomize-bg mx-2 px-1">one</span>
+            <span className="bg-CodeVault-bg mx-2 px-1">one</span>
             place
           </span>
         </h1>

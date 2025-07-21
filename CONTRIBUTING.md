@@ -1,6 +1,6 @@
-# Contributing to Digitomize
+# Contributing to CodeVault
 
-Welcome to the **Digitomize** project! We're excited to have you contribute. Before you get started, please take a moment to review the guidelines for contributing.
+Welcome to the **CodeVault** project! We're excited to have you contribute. Before you get started, please take a moment to review the guidelines for contributing.
 
 ## Table of Contents
 

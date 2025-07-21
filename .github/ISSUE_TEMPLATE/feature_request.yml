@@ -1,6 +1,6 @@
 ---
 name: 🛠️ Feature Request
-description: Suggest an idea to help us improve digitomize.
+description: Suggest an idea to help us improve CodeVault.
 title: "[Feature]: "
 labels:
   - "feature_request"
@@ -10,9 +10,9 @@ body:
     attributes:
       value: |
         **Thanks :heart: for taking the time to fill out this feature request report!**
-        We kindly ask that you search to see if an issue [already exists](https://github.com/digitomize/digitomize/issues) for your feature.
+        We kindly ask that you search to see if an issue [already exists](https://github.com/CodeVault/CodeVault/issues) for your feature.
 
-        We are also happy to accept contributions from our users. For more details see [here](https://github.com/digitomize/digitomize/blob/main/CONTRIBUTING.md)
+        We are also happy to accept contributions from our users. For more details see [here](https://github.com/CodeVault/CodeVault/blob/main/CONTRIBUTING.md)
 
   - type: textarea
     attributes:
@@ -57,7 +57,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/digitomize/digitomize/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/CodeVault/CodeVault/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I have used the search function to check if an issue already exists
         - label: I agree to follow this project's Code of Conduct

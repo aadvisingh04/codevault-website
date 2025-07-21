@@ -57,10 +57,10 @@ export default function Leaderboard() {
     searchParams.get("platform") || "",
   );
   const [name, setName] = useState("");
-  const [selectedRating, setSelectedRating] = useState("digitomize");
+  const [selectedRating, setSelectedRating] = useState("CodeVault");
   const platforms = ["leetcode", "codechef", "codeforces"];
   const platformsIcon = [leetcode, codechef, codeforces];
-  const ratings = ["digitomize", "codechef", "leetcode", "codeforces"];
+  const ratings = ["CodeVault", "codechef", "leetcode", "codeforces"];
   const [screenSize, setScreenSize] = useState(getCurrentDimension());
   const close_model = () => setShow(false);
   const [show, setShow] = useState(false);
@@ -97,7 +97,7 @@ export default function Leaderboard() {
       <HtmlTooltip
         title={
           <React.Fragment>
-            <Typography color="inherit">Digitomize Rating</Typography>
+            <Typography color="inherit">CodeVault Rating</Typography>
             <p className="italic">
               A unified rating scale that normalizes Codeforces, CodeChef, and
               LeetCode ratings for easy comparison.{" "}
@@ -108,7 +108,7 @@ export default function Leaderboard() {
                 <tr className="border border-white">
                   <th className="border border-white">Platform</th>
                   <th className="border border-white ">Rating</th>
-                  <th className="border border-white ">Digitomize Rating</th>
+                  <th className="border border-white ">CodeVault Rating</th>
                 </tr>
               </thead>
               <tbody>
@@ -218,7 +218,7 @@ export default function Leaderboard() {
           One Scoreboard for
           <br />
           All Your{" "}
-          <span className="bg-digitomize-bg py-[1px] sm:py-1 rounded-md">
+          <span className="bg-CodeVault-bg py-[1px] sm:py-1 rounded-md">
             &nbsp;Coding Battles&nbsp;
           </span>
         </h1>
@@ -352,7 +352,7 @@ export default function Leaderboard() {
                 <th className="max-sm:hidden">codeforces</th>
                 <th className="max-sm:hidden">
                   <div className="items-center flex flex-row justify-center gap-x-1 w-full">
-                    digitomize rating
+                    CodeVault rating
                     <CustomTooltip />
                   </div>
                 </th>
@@ -503,11 +503,11 @@ export default function Leaderboard() {
                         <td className="max-sm:hidden">{row.leetcode}</td>
                         <td className="max-sm:hidden">{row.codeforces}</td>
                         <td className="max-sm:hidden">
-                          {Math.floor(row.digitomize_rating)}
+                          {Math.floor(row.CodeVault_rating)}
                         </td>
                         <td className="sm:hidden">
-                          {selectedRating === "digitomize"
-                            ? Math.floor(row.digitomize_rating)
+                          {selectedRating === "CodeVault"
+                            ? Math.floor(row.CodeVault_rating)
                             : selectedRating === "leetcode"
                               ? row.leetcode
                               : selectedRating === "codechef"
@@ -570,7 +570,7 @@ export default function Leaderboard() {
                     <td>{currentUserData.ratings.leetcode || 0}</td>
                     <td>{currentUserData.ratings.codeforces || 0}</td>
                     <td>
-                      {Math.floor(currentUserData.ratings.digitomize_rating)}
+                      {Math.floor(currentUserData.ratings.CodeVault_rating)}
                     </td> */}
                     <td className="max-sm:hidden">
                       {currentUserData.ratings.codechef || 0}
@@ -582,11 +582,11 @@ export default function Leaderboard() {
                       {currentUserData.ratings.codeforces || 0}
                     </td>
                     <td className="max-sm:hidden">
-                      {Math.floor(currentUserData.ratings.digitomize_rating)}
+                      {Math.floor(currentUserData.ratings.CodeVault_rating)}
                     </td>
                     <td className="sm:hidden">
-                      {selectedRating === "digitomize"
-                        ? Math.floor(currentUserData.ratings.digitomize_rating)
+                      {selectedRating === "CodeVault"
+                        ? Math.floor(currentUserData.ratings.CodeVault_rating)
                         : selectedRating === "leetcode"
                           ? currentUserData.ratings.leetcode
                           : selectedRating === "codechef"

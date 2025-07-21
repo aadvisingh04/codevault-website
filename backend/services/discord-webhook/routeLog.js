@@ -34,7 +34,7 @@ function sendRequestLog (req) {
       .setDescription(headersDescription);
 
     webhookClient.send({
-      username: "Route logging | digitomize",
+      username: "Route logging | CodeVault",
       avatarURL:
         "https://res.cloudinary.com/dsazw0r59/image/upload/logo_bg_y5ixum.jpg",
       embeds: [embed],

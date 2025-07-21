@@ -37,14 +37,14 @@ function sendWebhook_updateAccount ({
         { name: "Image", value: newImage, inline: true },
         {
           name: "Username",
-          value: `[${newUsername}](https://digitomize.com/u/${newUsername})`,
+          value: `[${newUsername}](https://CodeVault.com/u/${newUsername})`,
           inline: true,
         },
       )
       .setDescription(`New Data:\n\`\`\`json\n${newData}\n\`\`\``);
 
     webhookClient.send({
-      username: "Account updated | digitomize",
+      username: "Account updated | CodeVault",
       avatarURL:
         "https://res.cloudinary.com/dsazw0r59/image/upload/logo_bg_y5ixum.jpg",
       embeds: [oldEmbed, newEmbed],

@@ -37,7 +37,7 @@ export default function SectionOne() {
           delay: 0,
         }}
       >
-        <Link to={"https://github.com/digitomize/digitomize"}>
+        <Link to={"https://github.com/CodeVault/CodeVault"}>
           <div className="z-10 flex min-h-[2rem] items-center justify-center">
             <AnimatedGradientText>
               <span
@@ -75,7 +75,7 @@ export default function SectionOne() {
         >
           <span>One place for all your</span>
           <span className="block mt-1 md:mt-6 relative">
-            <span className="bg-digitomize-bg px-2 relative">
+            <span className="bg-CodeVault-bg px-2 relative">
               <span className="relative z-10">
                 {/* <img src={santaHat} className="absolute -rotate-45 transform h-16 w-16 -left-2 top-[-10%]" alt="Santa Hat" /> */}
                 coding platforms
@@ -96,7 +96,7 @@ export default function SectionOne() {
           }}
           className="text-description max-sm:text-sm sm:text-md md:text-xl mt-6"
         >
-          Elevate your coding and development journey with digitomize
+          Elevate your coding and development journey with CodeVault
         </motion.p>
       </div>
       <motion.div
@@ -177,7 +177,7 @@ export default function SectionOne() {
             alt="msme"
           />
         </a>
-        <a href="https://github.com/digitomize/digitomize">
+        <a href="https://github.com/CodeVault/CodeVault">
           <img
             className="max-md:w-32 md:w-40"
             src={meltcd}

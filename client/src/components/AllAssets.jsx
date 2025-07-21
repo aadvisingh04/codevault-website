@@ -10,7 +10,7 @@ import logo_white_full from "../assets/logo_white_cropped.png";
 import downArrow from "../assets/downArrow.svg";
 import gear from "../assets/gear.svg";
 import dynamicLogo from "../assets/dynamic_logo.svg";
-import logodgm from "../assets/digitomizeLogo.png";
+import logodgm from "../assets/logo.png";
 import tublian from "../assets/tublian.svg";
 import quine from "../assets/quine.png";
 import devfolio from "../assets/devfolio.svg";

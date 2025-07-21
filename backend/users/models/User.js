@@ -198,7 +198,7 @@ const userSchema = new mongoose.Schema(
         hardQuestions:0
       },
     },
-    digitomize_rating: {
+    CodeVault_rating: {
       type: Number,
       default: 0,
     },

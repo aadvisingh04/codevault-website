@@ -42,7 +42,7 @@ const questions = [
     type: "input",
     name: "VITE_REACT_APP_AUTH_DOMAIN",
     message: "Enter Firebase authentication domain:",
-    default:"digitomize-testers.firebaseapp.com",
+    default:"CodeVault-testers.firebaseapp.com",
     validate: function (value) {
       if (value.trim()) {
         return true;
@@ -54,7 +54,7 @@ const questions = [
     type: "input",
     name: "VITE_REACT_APP_PROJECT_ID",
     message: "Enter Firebase project ID:",
-    default:"digitomize-testers",
+    default:"CodeVault-testers",
     validate: function (value) {
       if (value.trim()) {
         return true;
@@ -66,7 +66,7 @@ const questions = [
     type: "input",
     name: "VITE_REACT_APP_STORAGE_BUCKET",
     message: "Enter Firebase storage bucket:",
-    default:"digitomize-testers.appspot.com",
+    default:"CodeVault-testers.appspot.com",
     validate: function (value) {
       if (value.trim()) {
         return true;

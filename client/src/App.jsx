@@ -89,7 +89,7 @@ function DiscordRedirect() {
   );
 }
 function BlogsRedirect() {
-  window.location.href = "https://blogs.digitomize.com";
+  window.location.href = "https://blogs.CodeVault.com";
   return (
     <>
       <MetaData path="blogs" />
@@ -101,7 +101,7 @@ function BlogsRedirect() {
   );
 }
 // function ContributeRedirect() {
-//   window.location.href = "https://github.com/pranshugupta54/digitomize";
+//   window.location.href = "https://github.com/pranshugupta54/CodeVault";
 //   return null;
 // }
 

@@ -57,7 +57,7 @@ const setUser = async (userData) => {
     const newUser = new User({
       uid,
       username: checkForDuplicateUsername ? uid : username || uid, // if username already used, use uid as username.
-      name: name || "Digitomize User",
+      name: name || "CodeVault User",
       picture:
         picture ||
         "https://img.freepik.com/free-vector/illustration-businessman_53876-5856.jpg",

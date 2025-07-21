@@ -262,7 +262,7 @@ export default function Contributors() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://api.github.com/repos/digitomize/digitomize/contents/.all-contributorsrc",
+        "https://api.github.com/repos/CodeVault/CodeVault/contents/.all-contributorsrc",
         {
           headers: {
             Accept: "application/vnd.github.raw",
@@ -300,7 +300,7 @@ export default function Contributors() {
           className="my-4 py-4 text-white max-md:text-4xl md:text-6xl flex flex-row mx-auto justify-center"
         >
             <span className="block mt-1 md:mt-6">
-              <span className="bg-digitomize-bg mx-2 px-1 rounded-lg">Contributors</span>
+              <span className="bg-CodeVault-bg mx-2 px-1 rounded-lg">Contributors</span>
             </span>
           </motion.h1>
           <div className="flex flex-row mt-4">
